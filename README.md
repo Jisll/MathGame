@@ -29,7 +29,7 @@ Follow these simple steps to start playing:
 
 ## 📜 License
 
-This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
 
 ## 🌟 Acknowledgments
 

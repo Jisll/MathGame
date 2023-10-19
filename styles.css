@@ -1,12 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom, #f0f0f0, #c7e9fb);
+    background: linear-gradient(to bottom, #3498db, #2ecc71);
     animation: fadeIn 1s ease-in-out;
 }
 
@@ -21,11 +21,11 @@ body {
 
 .quiz-container {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(10px);
     padding: 40px;
     border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     width: 80%;
     max-width: 600px;
     animation: slideIn 0.8s ease-in-out;
@@ -33,7 +33,7 @@ body {
 
 @keyframes slideIn {
     from {
-        transform: translateY(-50px);
+        transform: translateY(-30px);
         opacity: 0;
     }
     to {
@@ -44,7 +44,7 @@ body {
 
 .question {
     margin: 20px 0;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bold;
     color: #333;
     animation: fadeInUp 1s ease-in-out;
@@ -52,7 +52,7 @@ body {
 
 @keyframes fadeInUp {
     from {
-        transform: translateY(20px);
+        transform: translateY(10px);
         opacity: 0;
     }
     to {
@@ -64,9 +64,9 @@ body {
 #answer {
     padding: 12px;
     margin: 20px 0;
-    border: 2px solid #ccc;
+    border: 2px solid #3498db;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 20px;
     color: #555;
     transition: border-color 0.3s ease-in-out;
     animation: fadeIn 1s ease-in-out;
@@ -74,11 +74,11 @@ body {
 
 #answer:focus {
     outline: none;
-    border-color: #007bff;
+    border-color: #2ecc71;
 }
 
 #submit-btn {
-    background-color: #007bff;
+    background-color: #2ecc71;
     color: white;
     border: none;
     padding: 14px 28px;
@@ -88,11 +88,11 @@ body {
     letter-spacing: 1px;
     transition: background-color 0.3s ease-in-out;
     animation: fadeIn 1s ease-in-out;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 #submit-btn:hover {
-    background-color: #0056b3;
+    background-color: #27ae60;
 }
 
 p {
